@@ -1,0 +1,36 @@
+{
+  "name": "field-form-storefront",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5183 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4183 --strictPort",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "vue": "3.5.44",
+    "vue-router": "5.4.0",
+    "pinia": "4.1.0"
+  },
+  "description": "Vue 3 storefront with product variants, inventory limits, shopping bag, coupon totals and order history.",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiqinYang/field-form-storefront.git"
+  },
+  "devDependencies": {
+    "vite": "8.3.4",
+    "@vitejs/plugin-vue": "6.0.10",
+    "vitest": "5.0.5",
+    "prettier": "3.9.10",
+    "@vue/test-utils": "2.5.1",
+    "happy-dom": "21.0.3"
+  }
+}
